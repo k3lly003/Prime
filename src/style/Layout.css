@@ -1,0 +1,25 @@
+* {
+  border: 0;
+  margin: 0;
+}
+#root {
+  border: 1px solid orange;
+  width: 100% inherit;
+  height: 100%;
+}
+.comb {
+  border: 1px solid yellow;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.ab {
+  border: 1px solid red;
+  /* width: 50%; */
+  height: 50px;
+}
+.side {
+  border: 1px solid green;
+  width: 5%;
+}
