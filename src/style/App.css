@@ -182,10 +182,10 @@ body {
 }
 .book1 {
   /* border: 1px solid red; */
-  transform: translate(660%, -700%);
-  padding: 0% 3%;
+  transform: translate(540%, -380%);
+  padding: 8px 8px;
   border-radius: 60%;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(143, 139, 139, 0.4);
 }
 .menu {
   background-color: #6c6c6c;
@@ -234,11 +234,13 @@ body {
 }
 .only {
   /* border: 1px solid green; */
-  height: 50px;
+  /* height: 50px; */
+  display: none;
 }
 .me {
-  border: 1px solid gre;
+  /* border: 1px solid green; */
   height: 40%;
-  width: 70%;
+  width: 60%;
+  margin-left: 20%;
   border-radius: 60%;
 }
