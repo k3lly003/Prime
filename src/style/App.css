@@ -32,8 +32,10 @@ body {
   font-size: 20px;
 }
 .Bigcards {
+  /* border: 1px solid red; */
   display: flex;
   margin-left: 3%;
+  flex-wrap: wrap;
 }
 .overlay {
   /* border: 1px solid green; */
@@ -44,8 +46,8 @@ body {
   z-index: 1;
 }
 .Big {
-  /* border: 1px solid #000; */
-  width: 30%;
+  /* border: 1px solid #fff; */
+  width: 25%;
   border-radius: 10px;
   background-image: url(../image/download.jpg);
   background-position: center;
